@@ -1,4 +1,4 @@
-params.fq = "data/test.fq"
+params.fq = "data/ref1_1.fq.gz"
 
 ch_reads= channel.fromPath(params.fq,checkIfExits:true)
 
