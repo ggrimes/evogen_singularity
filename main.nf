@@ -1,3 +1,5 @@
+params.fq = "data/test.fq"
+
 ch_reads= channel.fromPath(params.fq,checkIfExits:true)
 
 process FASTQC {
