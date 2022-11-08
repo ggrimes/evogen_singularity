@@ -22,12 +22,12 @@ add fastqc container to nextflow.config and set singularity to be enabled
 
 ## Useful Links
 
-### Carpentires
+### Carpentries
 
 https://carpentries-incubator.github.io/singularity-introduction
 
 
-## Eddie
+## Running Singularity on Eddie
 
 https://www.wiki.ed.ac.uk/pages/viewpage.action?spaceKey=ResearchServices&title=Singularity​
 
