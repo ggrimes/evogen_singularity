@@ -31,6 +31,20 @@ vi evogen_singularity /nextflow.config
 cat evogen_singularity /nextflow.config
 ~~~
 
+~~~
+process {
+
+ container="https://depot.galaxyproject.org/singularity/fastqc:0.11.9--0"
+
+}
+
+singularity {
+
+	enabled = "true"
+
+}
+~~~
+
 ## Useful Links
 
 ### Carpentries
