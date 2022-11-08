@@ -47,6 +47,8 @@ singularity {
 
 ## Useful Links
 
+Some links to singularity training, registries etc ... 
+
 ### Carpentries
 
 https://carpentries-incubator.github.io/singularity-introduction
