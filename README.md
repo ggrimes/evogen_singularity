@@ -1,15 +1,25 @@
-# evogen_singularity
+# Evogen_singularity
 
-Nextflow singularity example
+Resources for Evogen talk 9 Nov 2022
+
+
+## Nextflow singularity example
 
 Demo of using singularity for Evogen talk Nov 2022
 
 
 
 ~~~
+#clone repo
 git clone https://github.com/ggrimes/evogen_singularity
+
+#load nextflow
 module load igmm/bac/nextflow/22.04.0.5697
+
+#unset NXF_SINGULARITY_CACHEDIR
 unset NXF_SINGULARITY_CACHEDIR
+
+#run nextflow
 nextflow run  evogen_singularity 
 ~~~
 
@@ -17,7 +27,8 @@ error will appear
 
 add fastqc container to nextflow.config and set singularity to be enabled
 ~~~
-
+vi evogen_singularity /nextflow.config
+cat evogen_singularity /nextflow.config
 ~~~
 
 ## Useful Links
