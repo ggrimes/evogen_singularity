@@ -56,9 +56,9 @@ https://carpentries-incubator.github.io/singularity-introduction
 
 ## Running Singularity on Eddie
 
-https://www.wiki.ed.ac.uk/pages/viewpage.action?spaceKey=ResearchServices&title=Singularity​
+https://www.wiki.ed.ac.uk/pages/viewpage.action?spaceKey=ResearchServices&title=Singularity
 
-https://www.wiki.ed.ac.uk/pages/viewpage.action?spaceKey=ResearchServices&title=Bioinformatics​
+https://www.wiki.ed.ac.uk/pages/viewpage.action?spaceKey=ResearchServices&title=Bioinformatics
 
 #### Container Registries
 
