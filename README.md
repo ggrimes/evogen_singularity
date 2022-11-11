@@ -95,9 +95,19 @@ https://www.nextflow.io/docs/latest/singularity.html
 
 ## Notes of creating a singularity image from Dockerfile
 
+## tutorials
+
+https://www.melbournebioinformatics.org.au/tutorials/tutorials/docker
+
 ~~~
 docker buildx build --platform linux/x86_64 -t ggrimes/cramino:0.9.4 .   
 docker save  ggrimes/cramino:0.9.4  >cramino-0.9.4.tar
 singularity build cramino-0.9.4.sif docker-archive://cramino-0.9.4.tar
 singularity shell cramino-0.9.4.sif
 ~~~
+
+
+### more links below
+
+#### using miniconda
+https://linuxhandbook.com/dockerize-python-apps/
