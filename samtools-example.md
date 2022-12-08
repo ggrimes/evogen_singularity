@@ -60,7 +60,7 @@ Once you have created the Dockerfile, you can build the Docker image by running 
 For example:
 
 
-`$ docker build -t my-samtools-image `
+`$ docker build -t samtools:1.16.1 .`
 
 This will create a new Docker image called `my-samtools-image` 
 
@@ -110,7 +110,9 @@ Activate the conda environment
 `RUN echo "source activate <environment name>" > ~/.bashrc`
 `ENV PATH /opt/conda/envs/<environment name>/bin:$PATH`
 
+## Shrink Docker image
 
+https://pythonspeed.com/articles/conda-docker-image-size/
 ## Notes on shrink conda image size here
 
 https://pythonspeed.com/articles/conda-docker-image-size/
