@@ -117,3 +117,6 @@ https://pythonspeed.com/articles/conda-docker-image-size/
 
 https://pythonspeed.com/articles/conda-docker-image-size/
 
+## Building on arm e.g. M1 chips for x86 arch
+
+https://www.docker.com/blog/multi-arch-images/
