@@ -107,6 +107,11 @@ singularity shell cramino-0.9.4.sif
 ~~~
 
 
+## Create Docker image from conda
+
+# shrink size of container
+https://pythonspeed.com/articles/conda-docker-image-size/
+
 ### more links below
 
 #### using miniconda
