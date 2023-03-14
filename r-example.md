@@ -49,3 +49,4 @@ singularity pull --name renv.sif pull docker://ggrimes/renv:1.0.0
 
 # Useful Links
 https://github.com/rocker-org/rocker-versioned2
+https://rocker-project.org/use/extending.html
