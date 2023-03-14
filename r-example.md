@@ -45,3 +45,7 @@ The image is now uploaded to https://hub.docker.com/repository/docker/ggrimes/re
 module load singularity
 singularity pull --name renv.sif pull docker://ggrimes/renv:1.0.0
 ```
+
+
+# Useful Links
+https://github.com/rocker-org/rocker-versioned2
